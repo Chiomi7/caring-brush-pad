@@ -16,20 +16,36 @@ bgcolor=LightGray,
 fontsize=\footnotesize,
 linenos
 ]{py}
-from PIL import Image
-import numpy as np
+import cv2
 
-filename = 'img.jpg'
+# 対象画像読み込み
+img = cv2.imread("img.jpg",cv2.IMREAD_COLOR)
 
-# 画像を読み込む
-img = Image.open(filename)
-# RGBデータに変換
-rgb_img = img.convert('RGB')
-# numpy配列に変換
-np_img = np.array(rgb_img)
-# RGBの平均値を計算
-average_rgb = np_img.mean(axis=(0,1))
-print('画像の平均RGB値: R={average_rgb[0]}, G={average_rgb[1]}, B={average_rgb[2]}')
+# RGB平均値を出力
+# flattenで一次元化しmeanで平均を取得 
+b = img.T[0].flatten().mean()
+g = img.T[1].flatten().mean()
+r = img.T[2].flatten().mean()
+
+# RGB平均値を取得
+print("B: %.2f" % (b))
+print("G: %.2f" % (g))
+print("R: %.2f" % (r))
+
+# BGRからHSVに変換
+imgHsv = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+
+# HSV平均値を取得
+# flattenで一次元化しmeanで平均を取得 
+h = imgHsv.T[0].flatten().mean()
+s = imgHsv.T[1].flatten().mean()
+v = imgHsv.T[2].flatten().mean()
+
+# HSV平均値を出力
+# uHeは[0,179], Saturationは[0,255]，Valueは[0,255]
+print("Hue: %.2f" % (h))
+print("Salute: %.2f" % (s))
+print("Value: %.2f" % (v))
 
 \end{minted}
 \caption{ソースコード}
