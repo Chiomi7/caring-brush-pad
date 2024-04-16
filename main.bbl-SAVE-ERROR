@@ -73,6 +73,7 @@
       \field{title}{Playing atari with deep reinforcement learning}
       \field{year}{2013}
     \endentry
+<<<<<<< HEAD
     \entry{ref:yao2017integrated}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=5323b41bc6794368f86ec65fc4fc2c9b}{%
@@ -188,6 +189,8 @@
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
     \endentry
+=======
+>>>>>>> master
   \enddatalist
 \endrefsection
 \endinput

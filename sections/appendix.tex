@@ -1,0 +1,38 @@
+%! TEX root = ../main.tex
+\documentclass[main]{subfiles}
+
+\begin{document}
+
+\begin{listing}
+\chapter{付録}
+
+\definecolor{LightGray}{gray}{0.9}
+\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=LightGray,
+fontsize=\footnotesize,
+linenos
+]{py}
+from PIL import Image
+import numpy as np
+
+filename = 'img.jpg'
+
+# 画像を読み込む
+img = Image.open(filename)
+# RGBデータに変換
+rgb_img = img.convert('RGB')
+# numpy配列に変換
+np_img = np.array(rgb_img)
+# RGBの平均値を計算
+average_rgb = np_img.mean(axis=(0,1))
+print('画像の平均RGB値: R={average_rgb[0]}, G={average_rgb[1]}, B={average_rgb[2]}')
+
+\end{minted}
+\caption{ソースコード}
+\label{lst:label}
+\end{listing}
+
