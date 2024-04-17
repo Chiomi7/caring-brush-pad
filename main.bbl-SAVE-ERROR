@@ -16,6 +16,8 @@
   {}
 \endgroup
 
+<<<<<<< HEAD
+=======
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
@@ -75,5 +77,6 @@
     \endentry
   \enddatalist
 \endrefsection
+>>>>>>> nabeta
 \endinput
 
