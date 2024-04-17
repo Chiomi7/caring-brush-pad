@@ -30,7 +30,7 @@
 \RequirePackage{paralist} % インラインリストのパッケージ
 \RequirePackage{amssymb, amsmath} % 高度な数式記述用パッケージ
 \RequirePackage{tabularray} % 高度な表組み用パッケージ
-% \RequirePackage{minted} % ソースコード表示の用パッケージ
+\RequirePackage{minted} % ソースコード表示の用パッケージ
 \RequirePackage{siunitx} % SI単位記法に準拠した形式で単位を書くためのパッケージ
 \RequirePackage{subfiles} % 大規模な文章を分割して記述して、統合するためのパッケージ
 \RequirePackage{indentfirst} % 最初の段落でインデントするためのパッケージ

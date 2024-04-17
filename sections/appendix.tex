@@ -3,10 +3,15 @@
 
 \begin{document}
 
-\begin{listing}
-\chapter{付録}
+% \begin{listing}
+\chapter*{付録}
+\phantomsection
+\addcontentsline{toc}{chapter}{付録}
 
 \definecolor{LightGray}{gray}{0.9}
+
+\begin{figure}
+    
 \begin{minted}
 [
 frame=lines,
@@ -47,10 +52,8 @@ print("Hue: %.2f" % (h))
 print("Salute: %.2f" % (s))
 print("Value: %.2f" % (v))
 
-
-
 \end{minted}
-\caption{ソースコード}
-\label{lst:label}
-\end{listing}
+\label{fig:label}
+\caption*{ソースコード}
+\end{figure}
 
