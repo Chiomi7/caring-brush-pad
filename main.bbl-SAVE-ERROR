@@ -16,67 +16,40 @@
   {}
 \endgroup
 
-<<<<<<< HEAD
-=======
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{ref:mnih2013playing}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=f7d23cfe4ca0e6bf7a8c251bfa78aca6}{%
-           family={Mnih},
-           familyi={M\bibinitperiod},
-           given={Volodymyr},
-           giveni={V\bibinitperiod}}}%
-        {{hash=481308b301166b521c74fde6566e97e6}{%
-           family={Kavukcuoglu},
-           familyi={K\bibinitperiod},
-           given={Koray},
-           giveni={K\bibinitperiod}}}%
-        {{hash=89dbd30410c2085cd059f32c57d4593e}{%
-           family={Silver},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
-           family={Graves},
-           familyi={G\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-        {{hash=af540e84ef1ecdaa70b1f7c90f59fd7d}{%
-           family={Antonoglou},
-           familyi={A\bibinitperiod},
-           given={Ioannis},
-           giveni={I\bibinitperiod}}}%
-        {{hash=d7805381550fb5f8360345f7f72c0b49}{%
-           family={Wierstra},
-           familyi={W\bibinitperiod},
-           given={Daan},
-           giveni={D\bibinitperiod}}}%
-        {{hash=9449802bcb467309c0ebced658096818}{%
-           family={Riedmiller},
-           familyi={R\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
+    \entry{ref:maeno2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=15dc58f434e2d229b46fc1a37ecf119b}{%
+           family={紀一},
+           familyi={紀\bibinitperiod},
+           given={前野},
+           giveni={前\bibinitperiod}}}%
       }
-      \strng{namehash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{fullhash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{fullhashraw}{2860d669102abb5e113bf4232d6d5997}
-      \strng{bibnamehash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{authorbibnamehash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{authornamehash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{authorfullhash}{2860d669102abb5e113bf4232d6d5997}
-      \strng{authorfullhashraw}{2860d669102abb5e113bf4232d6d5997}
+      \strng{namehash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{fullhash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{fullhashraw}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{bibnamehash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{authorbibnamehash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{authornamehash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{authorfullhash}{15dc58f434e2d229b46fc1a37ecf119b}
+      \strng{authorfullhashraw}{15dc58f434e2d229b46fc1a37ecf119b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1312.5602}
-      \field{title}{Playing atari with deep reinforcement learning}
-      \field{year}{2013}
+      \field{journaltitle}{シンポジウム: スポーツ・アンド・ヒューマン・ダイナミクス講演論文集}
+      \field{title}{スウィーピングのカーリング・ストーン運動に対する影響}
+      \field{volume}{2016}
+      \field{year}{2016}
+      \field{pages}{C\bibrangedash 23}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1299/jsmeshd.2016.C-23
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
->>>>>>> nabeta
 \endinput
 
